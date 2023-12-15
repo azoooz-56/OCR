@@ -96,6 +96,6 @@ class Result extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text("Readed text: $text");
+    return Text("Readed text: $text", style: TextStyle(),);
   }
 }
